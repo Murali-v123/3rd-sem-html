@@ -1,0 +1,41 @@
+.lin{
+    color: red;
+    font-size: 30px;
+    background-color: rgb(221, 201, 197);
+    text-decoration: rgb(27, 27, 44) wavy underline;
+
+}
+#para1{
+    color: rgb(212, 212, 236);
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+#l{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    background-color: rgb(233, 59, 59);
+    border: solid 5px rgb(128, 0, 49);
+    padding-left: 20px;
+    margin-right: 150px;
+    width: 500px;
+
+}
+#m{
+    color: rgb(153, 141, 34);
+    background-color: rosybrown;
+    border: dotted 5px blue;
+    padding-left: 50px;
+}
+#para2{
+    color: rgb(212, 212, 236);
+    font-size: 40px;
+    border: 50px double green;
+    margin-right:200px;
+    padding:40px ;
+    width: 200px;
+}
+#k{
+    padding: 10px;
+    margin: 200px;
+    border:10px solid rgb(224, 14, 14);
+}

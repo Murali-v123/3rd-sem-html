@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML form </h1>
+    <p>registration form</p>
+    <form >
+        <fieldset style="border: 3px solid black;">
+            <legend>personal information</legend>
+        <label for="f-name">first-name:</label>
+        <input type="f-name" id="f-name" name="f-name" placeholder="enter your first name" ><br>
+        <label for="l-name">last-name:</label>
+        <input type="l-name" id="l-name" name="l-name" placeholder="enter your last name"><br>
+        <label for="e-mail">Enter your email:</label>
+        <input type="e-mail" name="e-mail" id="e-mail" placeholder="enter your email"><br>
+        <label for="pass">password:</label>
+        <input type="pass" name="pass" id="pass" placeholder="Enter passsword" ><br>
+        </fieldset>
+        <label >Gender:</label><br>
+        <label for="ge">Male</label>
+        <input type="radio" id="ge" name="Gender" value="male" class="ge"><br>
+        <label for="fm" >female</label>
+        <input type="radio" id="fm" name="Gender" value="fm" class="fm"><br>
+        <label for="ot">other</label>
+        <input type="radio" id="ot" name="Gender" value="ot" class="ot"><br>
+        <label for="ag">age:</label>
+        <input type="number" name="ag" id="ag" class="ag" placeholder="enter your age"><br>
+        
+        <label >skills:</label><br>
+        <label for="pr">java</label>
+        <input type="checkbox" name="pr" id="pr" class="skills"><br>
+        <label for="pr">pyhton</label>
+        <input type="checkbox" name="pr" id="pr" class="skills"><br>
+        <label for="pr">c++</label>
+        <input type="checkbox" name="pr" id="pr" class="skills"><br>
+
+        <label >dob:</label> <br>
+        <input type="date" name="d" id="d" class="date"><br>
+
+        <label >time:</label>
+        <input type="time" name="t" id="t" class="time"><br>
+       
+        <label for="ad">Adress:</label><br>
+        <textarea name="ad" id="ad" class="ad" rows="10" cols="30"></textarea><br>
+
+        <input type="submit" value="submit" class="submit" id="submit" >
+        <input type="reset" value="reset" class="reset" id="reset">
+     
+    </form>
+</body>
+</html>
