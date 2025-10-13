@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let c=['red','green','blue'];
+        for(let index in c){
+        console.log(((index))+':'+c[index])// to start index from 0
+        //console.log(((+index)+1)+':'+c[index])//to start index from 1  
+       }
+        let c1=['red','green','blue'];
+        for(let c2 of c1){
+            console.log(c2)
+        }
+
+         let c2=['red','green','blue'];
+         c2.forEach((c2,index)=>{
+            console.log((index+1)+':'+c2)
+         })
+
+         let i;
+         for(i=1;i<=5;i++){
+            console.log('value of i:',i)
+         }
+         
+         let  j=1;
+         n=+prompt('enter the value of n')
+         while(j<=n){
+            console.log('value of j:',j)
+            j++
+         }
+
+    </script>
+</body>
+</html>

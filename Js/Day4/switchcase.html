@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const add =(a,b)=>{
+            console.log('add of values are:',a+b);
+        }
+
+        const sub= (a,b)=>{
+            console.log('sub ofvalues :',a-b);
+        }
+
+        const mul=(a,b)=>{
+            console.log('mul of values:',a*b)
+        }
+
+        const div=(a,b)=>{
+            console.log('div of values:',a/b)
+        }
+        const mod=(a,b)=>{
+            console.log('mod of values:',a%b)
+        }
+
+        const f = (a)=>
+        {
+            let b=1
+            for (i=1;i<=a;i++){
+                b=b*i
+
+            }
+            console.log('fact of number:',b)
+        }
+        console.log('1. add')
+        console.log('2. sub')
+        console.log('3. mul')
+        console.log('4. div')
+        console.log('5. mod')
+        console.log('6. fact')
+        let num=+prompt('enter the operation to be performed')
+        if(num==6){
+            let a=+prompt('enter value')
+            f(a);
+        }
+        else if (num<1 || num>5
+        ){
+            console.log('invalid operator')
+        }
+        else{
+            let a=+prompt('enter 1st value')
+            let b=+prompt('enter 2nd value')
+            switch(num){
+                case 1:
+                    add(a,b)
+                    break;
+                case 2:
+                    sub(a,b);
+                    break;
+
+                case 3:
+                    mul(a,b);
+                    break;
+                case 4:
+                    div(a,b);
+                    break;
+                case 5:
+                    mod(a,b);
+                    break;
+            }
+        }
+
+    </script>
+</body>
+</html>

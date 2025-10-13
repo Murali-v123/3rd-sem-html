@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>3-Ways of creating a functions</h1>
+
+    <p>1. function declaration-</p>
+
+    2. function expression-</p>
+
+    3. arrow function-</p>
+    
+    <pre>
+        1. Function Declaration
+        function function_name(parameters){
+            //code to be executed
+        }
+        fun_name(arguments)
+
+        2. Function Expression
+        const fun_name = function(parameters){
+            //code to be executed
+        }
+        fun_name(arguments)
+
+        3. Arrow Function
+        const fun_name = (parameters) =>{
+            //code to be executed
+        }
+        fun_name(arguments)
+    </pre>
+
+    <script>
+
+        //1. Function Declaration
+        function add(a,b)
+        {
+            console.log('sum of values are:',a+b);
+        }
+        add(10,20);
+        add(10,230);
+
+        //2. Function Expression
+        const add1 = function(a,b){
+            console.log('subtraction of value',a-b);
+        }
+        add1(1000,20)
+        add1(1000,200)
+
+        //3. Arrow Function
+        const add2 = (a,b) =>{
+            console.log('values are:',a*b)
+        }
+        add2(26,4)
+        add2(26,5)
+        
+ 
+    </script>
+</body>
+</html>
