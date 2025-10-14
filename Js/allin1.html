@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Namaskara Bengaluru🙏!</h1>
+    <button type="button" onclick="document.getElementById('title').innerText='nothing'">do you wanna know what's inside</button>
+    <button type="button" onclick="document.getElementById('title').innerText='i told u'">do you wanna know</button>
+    <div style="text-align: center;"></div><br>
+
+    <img src="./off.png" alt="image" id="bulb" width="100px" height="150px" >
+    <button type="button" onclick="document.getElementById('bulb').src='./on.gif'">Turn on</button>
+    <button type="button" onclick="document.getElementById('bulb').src='./off.png'">Turn off</button>
+    </div><br><br>
+
+    <div id="desc">Lorem, ipsum dolor.</div><br>
+    <button onclick="document.getElementById('desc').style.color='yellow'">change color </button>
+    <button onclick="document.getElementById('desc').style.backgroundColor='brown' ">change background </button><br>
+    
+    <h3 id="title2" >Lorem, ipsum.</h3>
+    <button onclick="document.getElementById('title2').style.display='none',document.getElementById('desc').style.display='none',document.getElementById('bulb').style.display='none',document.getElementById('title').style.display='none'">hide element</button><br><br>
+
+    <h2 id="t" style="display: none;">HEad</h2>
+    <button onclick="document.getElementById('t').style.display='block'">show ele</button>
+
+</body>
+</html>

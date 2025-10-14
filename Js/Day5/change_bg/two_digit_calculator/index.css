@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d48611;
+    background: linear-gradient(90deg, rgb(214, 23, 157) 0%, rgb(15, 192, 124) 35%, rgb(214, 200, 8) 100%);
+    
+}
+
+.card {
+    padding: 10px 20px;
+    background-color: #e7c38d; 
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.title {
+    font-size: 2rem;
+    /* 1rem = 16px*/
+}
+
+.card-header {
+    background-color: rgb(188, 223, 231);
+}
+/*input{
+   /* background-color: #d48611 !important;
+}

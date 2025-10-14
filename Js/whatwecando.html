@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <p>1. using js we can change the content of html.</p>
+    <h1 id="title">Namaskara Bengaluru🙏!</h1>
+    <button type="button" onclick="document.getElementById('title').innerText='nothing'">do you wanna know what's inside</button>
+    <button type="button" onclick="document.getElementById('title').innerText='i told u'">do you wanna know</button>
+    
+    <p>2. we can change the html attribute.</p>
+    <div style="text-align: center;"></div>
+    <img src="./off.png" alt="image" id="bulb" width="100px" height="150px" >
+    <button type="button" onclick="document.getElementById('bulb').src='./on.gif'">Turn on</button>
+    <button type="button" onclick="document.getElementById('bulb').src='./off.png'">Turn off</button>
+    </div>
+    
+    <p>3. we can change the css.</p>
+    <div id="desc">Lorem, ipsum dolor.</div>
+    <button onclick="document.getElementById('desc').style.color='yellow'">change background </button>   
+    
+    <p>4. we can hide the html element.</p>
+    <h3 id="title2" >Lorem, ipsum.</h3>
+    <button onclick="document.getElementById('title2').style.display='none',document.getElementById('desc').style.display='none',document.getElementById('bulb').style.display='none',document.getElementById('title').style.display='none'">hide element</button>  
+ 
+    <p>5. we can show the html element.</p>
+    <h2 id="t" style="display: none;">HEad</h2>
+    <button onclick="document.getElementById('t').style.display='block'">show ele</button>
+      
+</body>
+</html>

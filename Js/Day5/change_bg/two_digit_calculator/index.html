@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-header">
+            <h1 class="title">Two digit caluculator</h1>
+        </div>
+        <div class="card-body">
+            <div class="mb-3">
+                <label for="num1" class="form-label">Enter 1st number:</label>
+                <input type="number" id="num1" class="number form-control" placeholder="Enter first number">
+            </div>
+            <div class="mb-3">
+                <label for="num2" class="form-label">Enter 2st number:</label>
+                <input type="number" id="num2" class="number  form-control" placeholder="Enter second number">
+            </div>
+            <div class="mb-3">
+                <label for="operator" class="form-label">Select operator:</label>
+                <select class="form-select" aria-label="Default select example" id="operator">
+
+                    <option value="+" selected>+</option>
+                    <option value="-">-</option>
+                    <option value="*" *>*</option>
+                    <option value="/">/</option>
+                    <option value="%">%</option>
+                </select>
+            </div>
+            <div>
+                <button type="button" class="btn btn-success" id="calculate" onclick="calculate()" >calculate</button>
+            </div>
+            <div id="res"> </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js "></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
