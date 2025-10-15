@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #020024;
+    background: linear-gradient(90deg, rgb(154, 153, 177) 6%, rgb(73, 212, 31) 35%, rgb(206, 83, 185) 73%, rgba(0, 212, 255, 1) 91%);
+}
+
+.card {
+    width: 400px;
+    background-color: rgb(219, 255, 12);
+    border-radius: 5px;
+    padding: 20px;
+}

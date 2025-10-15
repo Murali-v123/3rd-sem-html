@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #a09dd1;
+    background: linear-gradient(90deg, rgb(148, 144, 212) 6%, rgb(216, 235, 111) 35%, rgb(109, 157, 230) 73%, rgb(93, 218, 243) 91%);
+}
+
+.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#time {
+    font-size: 2rem;
+}
+
+#date {
+    font-size: 2rem;
+}
