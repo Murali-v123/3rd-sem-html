@@ -1,0 +1,306 @@
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 80px 70px;
+}
+
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+
+.footer-top-left img {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+
+.footer-top-left p {
+    font-size: 20px;
+    max-width: 400px;
+    color: #d8d8d8;
+    line-height: 32px;
+}
+
+
+.footer-top-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.footer-email-input {
+    display: flex;
+    gap: 20px;
+    padding: 20px 30px;
+    border-radius: 50px;
+    background: #32323b;
+    padding-right: 80px;
+    align-items: center;
+    transition: 0.3s;
+}
+
+
+.footer-email-input input {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #d8d8d8;
+    font-size: 16px;
+    width: 200px;
+}
+
+
+.footer-email-input img {
+    width: 25px;
+    height: 25px;
+}
+
+
+.footer-subscribe {
+    font-size: 20px;
+    padding: 22px 50px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+    cursor: pointer;
+    transition: 0.3s;
+    color: #fff;
+    white-space: nowrap;
+}
+
+
+.footer-subscribe:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+.footer-email-input:hover {
+    border: 2px solid white;
+}
+
+
+hr {
+    border: 1px solid #444;
+}
+
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #d8d8d8;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.footer-bottom-left {
+    flex: 1;
+}
+
+
+.footer-bottom-right {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+
+.footer-bottom-right p {
+    cursor: pointer;
+}
+
+
+.footer-bottom-right p:hover {
+    color: #df8908;
+    transition: 0.3s;
+}
+
+
+/* ---------------------------------- */
+/* 📱 Responsive Design Section */
+/* ---------------------------------- */
+
+
+/* Tablets (<= 1024px) */
+@media (max-width: 1024px) {
+    .footer {
+        margin: 60px 40px;
+    }
+
+
+    .footer-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+
+    .footer-top-left p {
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+
+    .footer-top-right {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+
+    .footer-email-input {
+        width: 100%;
+        padding: 15px 25px;
+        padding-right: 60px;
+    }
+
+
+    .footer-email-input input {
+        width: 100%;
+    }
+
+
+    .footer-subscribe {
+        padding: 18px 40px;
+        font-size: 18px;
+    }
+
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+
+    .footer-bottom-right {
+        gap: 25px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Mobile (<= 768px) */
+@media (max-width: 768px) {
+    .footer {
+        margin: 50px 25px;
+        gap: 25px;
+    }
+
+
+    .footer-top-left img {
+        width: 120px;
+    }
+
+
+    .footer-top-left p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+
+    .footer-top-right {
+        gap: 15px;
+    }
+
+
+    .footer-email-input {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 12px 20px;
+        border-radius: 40px;
+    }
+
+
+    .footer-email-input input {
+        font-size: 14px;
+        width: 100%;
+    }
+
+
+    .footer-subscribe {
+        font-size: 16px;
+        padding: 15px 35px;
+    }
+
+
+    .footer-bottom {
+        font-size: 16px;
+        text-align: center;
+        align-items: center;
+    }
+
+
+    .footer-bottom-right {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Small Mobile (<= 480px) */
+@media (max-width: 480px) {
+    .footer {
+        margin: 40px 20px;
+        gap: 20px;
+    }
+
+
+    .footer-top-left img {
+        width: 100px;
+    }
+
+
+    .footer-top-left p {
+        font-size: 14px;
+    }
+
+
+    .footer-email-input {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+        padding: 15px;
+    }
+
+
+    .footer-email-input input {
+        width: 100%;
+        font-size: 14px;
+    }
+
+
+    .footer-subscribe {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+    .footer-bottom {
+        font-size: 14px;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+
+    .footer-bottom-right {
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 10px;
+    }
+}

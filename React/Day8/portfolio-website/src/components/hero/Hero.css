@@ -1,0 +1,148 @@
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.hero img {
+  margin-top: 80px;
+  border-radius: 100%;
+  width: 400px;
+}
+
+.hero h1 {
+  text-align: center;
+  width: 70%;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.hero h1 span {
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.hero-action {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.hero-connect {
+  padding: 25px 45px;
+  border-radius: 50px;
+  background: linear-gradient(264deg, #df8908 -5.9%, #b415ff 100%);
+  cursor: pointer;
+}
+
+.hero-resume {
+  padding: 25px 75px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+.hero-connect:hover {
+  border: 2px solid white;
+}
+
+.hero-resume:hover {
+  border-color: #b415ff;
+}
+
+/* ===== Responsive Design ===== */
+
+/* For tablets and small laptops */
+@media (max-width: 1024px) {
+  .hero h1 {
+    width: 85%;
+    font-size: 48px;
+  }
+
+  .hero p {
+    width: 70%;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .hero-action {
+    font-size: 20px;
+  }
+
+  .hero-connect,
+  .hero-resume {
+    padding: 20px 40px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .hero {
+    gap: 25px;
+  }
+
+  .hero img {
+    width: 200px;
+    margin-top: 50px;
+  }
+
+  .hero h1 {
+    width: 90%;
+    font-size: 34px;
+    line-height: 45px;
+  }
+
+  .hero p {
+    width: 85%;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .hero-action {
+    flex-direction: column;
+    gap: 15px;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .hero-connect,
+  .hero-resume {
+    width: 80%;
+    text-align: center;
+    padding: 18px 0;
+    border-radius: 40px;
+  }
+}
+
+/* For very small phones (less than 480px) */
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .hero p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .hero-connect,
+  .hero-resume {
+    width: 90%;
+    font-size: 16px;
+    padding: 15px 0;
+  }
+}
